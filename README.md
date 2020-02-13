@@ -8,7 +8,7 @@ You need both this plugin and ESLint installed.
 
 ```bash
 yarn add eslint@6.8.0
-yarn add ssh://git@github.com:einride/einride-eslint-plugin.git#5f56a246667abdea3ea26169ed8a97a67a66a784
+yarn add ssh://git@github.com:einride/eslint-plugin.git#5f56a246667abdea3ea26169ed8a97a67a66a784
 ```
 
 ## Usage
