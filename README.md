@@ -1,22 +1,15 @@
 # eslint-plugin-einride
 
-Einride Eslint rules
+Einride ESLint rules
 
 ## Installation
 
-You'll first need to install [ESLint](http://eslint.org):
+You need both this plugin and ESLint installed.
 
+```bash
+yarn add eslint@6.8.0
+yarn add ssh://git@github.com:einride/einride-eslint-plugin.git#5f56a246667abdea3ea26169ed8a97a67a66a784
 ```
-$ npm i eslint --save-dev
-```
-
-Next, install `eslint-plugin-einride`:
-
-```
-$ npm install eslint-plugin-einride --save-dev
-```
-
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-einride` globally.
 
 ## Usage
 
