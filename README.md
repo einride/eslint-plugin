@@ -22,3 +22,15 @@ module.exports = {
   ]
 };
 ```
+
+Add an entry to `scripts` in `package.json`
+
+```json
+{
+  "scripts": {
+    "lint": "eslint './src/**/*.{ts,tsx}'"
+   }
+}
+```
+
+Run with `yarn lint` or `yarn lint --fix`
