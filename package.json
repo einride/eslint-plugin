@@ -22,5 +22,24 @@
   },
   "peerDependencies": {
     "eslint": ">=7.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "react",
+    "typescript",
+    "einride",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/einride/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/einride/eslint-config.git"
+  },
+  "bugs": {
+    "email": "open-source@einride.tech",
+    "url": "https://github.com/einride/eslint-config/issues"
   }
 }
