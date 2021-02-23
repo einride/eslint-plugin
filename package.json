@@ -4,6 +4,9 @@
   "description": "Einride's ESLint configuration as a sharable plugin",
   "author": "Pontus Persson",
   "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.8.0",
     "@typescript-eslint/parser": "4.8.0",
