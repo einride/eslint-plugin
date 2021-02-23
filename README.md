@@ -1,66 +1,65 @@
-# eslint-plugin-einride
+# @einride/eslint-plugin
 
-Einride ESLint rules
+This package provides an extensible ESLint configuration used by Einride.
 
 ## Installation
 
-You need both this plugin and ESLint installed.
+Install this ESLint plugin together with ESLint as dev-dependencies:
 
 ```bash
-yarn add eslint@6.8.0
-yarn add ssh://git@github.com:einride/eslint-plugin.git#master
+# npm
+npm install eslint @einride/eslint-plugin --save-dev
+
+# yarn
+yarn add eslint @einride/eslint-plugin --dev
 ```
 
 ## Usage
 
-Add `einride` to the plugins section of your `.eslintrc.js` configuration file. You can omit the `eslint-plugin-` prefix:
+### Enable all default rules
+
+Add `@einride/default` to the `extends` array in your ESLint configuration file. In `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: [
-    "plugin:einride/default"
-  ]
+  extends: ["plugin:@einride/default"],
 };
 ```
 
-Add an entry to `scripts` in `package.json`
+To override a rule, add it to the `rules` object:
 
-```json
-{
-  "scripts": {
-    "lint": "eslint './src/**/*.{ts,tsx}'"
-   }
-}
+```js
+module.exports = {
+  extends: ["plugin:@einride/default"],
+  rules: {
+    "no-restricted-globals": 1,
+  },
+};
 ```
 
-Run with `yarn lint` or `yarn lint --fix`
+### Enable a subset of rules
 
-## Developing
+Add `@einride` to the `plugin` array in your ESLint configuration file. In `.eslintrc.js`:
 
-To try out rules without changing this repo, add them to your local `.eslintrc.js`.
+```js
+module.exports = {
+  plugins: ["@einride"],
+};
+```
 
-```diff
- module.exports = {
-   extends: [
-     "plugin:einride/default"
-   ],
-+  rules: {
-+    "no-restricted-globals": 0,
-+  },
- };
- ```
+Note that you can omit the `/eslint-plugin` part of the package name, since it will be automatically assumed by ESLint.
 
+Then configure the rules you want to use in the `rules` object:
 
-Making changes to rules in this repository may follow the recommended path.
+```js
+module.exports = {
+  plugins: ["@einride"],
+  rules: {
+    "react/jsx-curly-newline": 0,
+  },
+};
+```
 
-1. Make the change in this repository.
+## License
 
-1. Push changes to branch.
-
-1. Test install from branch using `yarn add ssh://git@github.com:einride/eslint-plugin.git#[branch name]`
-
-1. Create Pull Request and get buy in from peers.
-
-1. Ensure we release a new version and help ensuring we upgrade all projects using this plugin.
-
-
+@einride/eslint-plugin is licensed under the [MIT License](LICENSE).
