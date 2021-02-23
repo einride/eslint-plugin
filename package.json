@@ -1,6 +1,6 @@
 {
   "name": "@einride/eslint-plugin",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Einride's ESLint configuration as a sharable plugin",
   "author": "Pontus Persson",
   "main": "lib/index.js",
