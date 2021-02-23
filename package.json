@@ -1,7 +1,7 @@
 {
-  "name": "@einride/eslint-config",
+  "name": "@einride/eslint-plugin",
   "version": "0.0.0",
-  "description": "Einride's ESLint config",
+  "description": "Einride's ESLint configuration as a sharable plugin",
   "author": "Pontus Persson",
   "main": "lib/index.js",
   "dependencies": {
@@ -25,21 +25,21 @@
   },
   "keywords": [
     "eslint",
-    "eslintconfig",
-    "config",
+    "eslintplugin",
+    "plugin",
     "react",
     "typescript",
     "einride",
     "styleguide"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/einride/eslint-config",
+  "homepage": "https://github.com/einride/eslint-plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/einride/eslint-config.git"
+    "url": "https://github.com/einride/eslint-plugin.git"
   },
   "bugs": {
     "email": "open-source@einride.tech",
-    "url": "https://github.com/einride/eslint-config/issues"
+    "url": "https://github.com/einride/eslint-plugin/issues"
   }
 }
