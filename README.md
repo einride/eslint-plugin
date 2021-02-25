@@ -18,13 +18,15 @@ yarn add eslint @einride/eslint-plugin --dev
 
 ### Enable all default rules
 
-Add `@einride/default` to the `extends` array in your ESLint configuration file. In `.eslintrc.js`:
+Add `plugin:@einride/default` to the `extends` array in your ESLint configuration file. In `.eslintrc.js`:
 
 ```js
 module.exports = {
   extends: ["plugin:@einride/default"],
 };
 ```
+
+Note that you can omit the `/eslint-plugin` part of the package name, since it will be automatically assumed by ESLint.
 
 To override a rule, add it to the `rules` object:
 
@@ -46,8 +48,6 @@ module.exports = {
   plugins: ["@einride"],
 };
 ```
-
-Note that you can omit the `/eslint-plugin` part of the package name, since it will be automatically assumed by ESLint.
 
 Then configure the rules you want to use in the `rules` object:
 
