@@ -2,7 +2,7 @@
   "name": "@einride/eslint-plugin",
   "version": "0.0.0-development",
   "description": "Einride's ESLint configuration as a sharable plugin",
-  "author": "Pontus Persson",
+  "author": "Filip Tammergård",
   "main": "lib/index.js",
   "publishConfig": {
     "access": "public"
