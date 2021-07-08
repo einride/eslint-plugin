@@ -6,7 +6,7 @@ This package provides an extensible ESLint configuration used by Einride.
 
 ## Installation
 
-Install this ESLint plugin together with ESLint as dev-dependencies:
+Install this ESLint plugin together with ESLint as dev dependencies:
 
 ```bash
 # npm
@@ -36,7 +36,7 @@ To override a rule, add it to the `rules` object:
 module.exports = {
   extends: ["plugin:@einride/default"],
   rules: {
-    "no-restricted-globals": 1,
+    "no-restricted-globals": "off",
   },
 };
 ```
@@ -57,7 +57,7 @@ Then configure the rules you want to use in the `rules` object:
 module.exports = {
   plugins: ["@einride"],
   rules: {
-    "react/jsx-curly-newline": 0,
+    "react/jsx-curly-newline": "error",
   },
 };
 ```
