@@ -3,12 +3,12 @@
   "version": "0.0.0-development",
   "description": "Einride's ESLint configuration as a sharable plugin",
   "author": "Filip Tammergård",
-  "main": "lib/index.js",
+  "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "files": [
-    "lib/index.js"
+    "index.js"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.28.2",
