@@ -43,7 +43,7 @@ module.exports = {
 
 ### Enable a subset of rules
 
-Add `@einride` to the `plugin` array in your ESLint configuration file. In `.eslintrc.js`:
+Add `@einride` to the `plugins` array in your ESLint configuration file. In `.eslintrc.js`:
 
 ```js
 module.exports = {
