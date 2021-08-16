@@ -29,7 +29,7 @@
   "keywords": [
     "eslint",
     "eslintplugin",
-    "plugin",
+    "eslint-plugin",
     "react",
     "typescript",
     "einride",
