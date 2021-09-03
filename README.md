@@ -6,14 +6,14 @@ This package provides an extensible ESLint configuration used by Einride.
 
 ## Installation
 
-Install this ESLint plugin together with ESLint as dev dependencies:
+Install this ESLint plugin together with its peer dependencies as dev dependencies:
 
 ```bash
 # npm
-npm install eslint @einride/eslint-plugin --save-dev
+npm install @einride/eslint-plugin eslint prettier --save-dev
 
 # yarn
-yarn add eslint @einride/eslint-plugin --dev
+yarn add @einride/eslint-plugin eslint prettier --dev
 ```
 
 ## Usage
