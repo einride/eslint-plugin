@@ -2,14 +2,12 @@
   "name": "@einride/eslint-plugin",
   "version": "0.0.0-development",
   "description": "Einride's ESLint configuration as a sharable plugin",
-  "author": "Filip Tammergård",
-  "main": "index.js",
-  "publishConfig": {
-    "access": "public"
+  "scripts": {
+    "commitlint": "commitlint --from origin/main --to HEAD",
+    "git-verify-nodiff": "./scripts/git-verify-nodiff.bash",
+    "prettier": "prettier --write .",
+    "review": "yarn install --frozen-lockfile && yarn commitlint && yarn prettier && yarn git-verify-nodiff"
   },
-  "files": [
-    "index.js"
-  ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.0.0",
     "@typescript-eslint/parser": "5.0.0",
@@ -26,6 +24,14 @@
     "eslint": ">=7.28.0",
     "prettier": "^2.4.1"
   },
+  "author": "Filip Tammergård",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "eslint",
     "eslintplugin",
