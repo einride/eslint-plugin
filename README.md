@@ -1,6 +1,6 @@
 # @einride/eslint-plugin
 
-[![license](https://img.shields.io/npm/l/@einride/eslint-plugin.svg)](https://github.com/einride/eslint-plugin/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/@einride/eslint-plugin.svg)](https://www.npmjs.com/package/@einride/eslint-plugin) [![total npm downloads](https://img.shields.io/npm/dt/@einride/eslint-plugin.svg)](https://www.npmjs.com/package/@einride/eslint-plugin)
+[![license](https://img.shields.io/npm/l/@einride/eslint-plugin.svg)](https://github.com/einride/eslint-plugin/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/@einride/eslint-plugin.svg)](https://www.npmjs.com/package/@einride/eslint-plugin) [![total npm downloads](https://img.shields.io/npm/dt/@einride/eslint-plugin.svg)](https://www.npmjs.com/package/@einride/eslint-plugin)
 
 This package provides an extensible ESLint configuration used by Einride.
 
