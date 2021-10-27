@@ -20,6 +20,12 @@
     "eslint-plugin-react": "7.26.1",
     "eslint-plugin-react-hooks": "4.2.0"
   },
+  "devDependencies": {
+    "@commitlint/config-conventional": "13.2.0",
+    "commitlint": "13.2.1",
+    "prettier": "2.4.1",
+    "semantic-release": "18.0.0"
+  },
   "peerDependencies": {
     "eslint": ">=7.28.0",
     "prettier": "^2.4.1"
