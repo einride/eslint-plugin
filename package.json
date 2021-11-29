@@ -23,7 +23,6 @@
   "devDependencies": {
     "@commitlint/config-conventional": "15.0.0",
     "commitlint": "15.0.0",
-    "conventional-changelog-conventionalcommits": "4.6.1",
     "prettier": "2.5.0",
     "semantic-release": "18.0.1"
   },
