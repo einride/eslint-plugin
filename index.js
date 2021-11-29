@@ -49,6 +49,13 @@ module.exports = {
         quotes: ["error", "double", { avoidEscape: true }],
         "react/prop-types": "off",
         "react/require-default-props": "off",
+        "react/function-component-definition": [
+          "error",
+          {
+            namedComponents: "arrow-function",
+            unnamedComponents: "arrow-function",
+          },
+        ],
       },
       settings: {
         "import/parsers": {
