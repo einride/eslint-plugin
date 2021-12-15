@@ -13,6 +13,8 @@ module.exports = {
         "plugin:prettier/recommended",
       ],
       rules: {
+        "max-depth": ["warn", 3],
+        "max-nested-callbacks": ["warn", 3],
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off",
         "import/order": [
