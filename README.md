@@ -64,4 +64,4 @@ module.exports = {
 
 ## License
 
-@einride/eslint-plugin is licensed under the [MIT License](LICENSE).
+MIT
