@@ -51,6 +51,12 @@ module.exports = {
         quotes: ["error", "double", { avoidEscape: true }],
         "react/prop-types": "off",
         "react/require-default-props": "off",
+        "react/jsx-no-useless-fragment": [
+          "error",
+          {
+            allowExpressions: true,
+          },
+        ],
         "react/function-component-definition": [
           "error",
           {
