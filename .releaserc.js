@@ -20,4 +20,4 @@ module.exports = {
   success: false,
   // disable creation of github issues due to failed releases
   fail: false,
-};
+}
