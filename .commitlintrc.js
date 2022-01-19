@@ -4,4 +4,4 @@ module.exports = {
     // ignore dependabot messages
     (message) => /^Bumps \[.+]\(.+\) from .+ to .+\.$/m.test(message),
   ],
-};
+}
