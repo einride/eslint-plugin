@@ -11,6 +11,7 @@ module.exports = {
         "plugin:@typescript-eslint/recommended",
         "prettier",
         "plugin:prettier/recommended",
+        "deprecation",
       ],
       rules: {
         "max-depth": ["warn", 3],
@@ -64,6 +65,7 @@ module.exports = {
             unnamedComponents: "arrow-function",
           },
         ],
+        "deprecation/deprecation": "error",
       },
       settings: {
         "import/parsers": {
