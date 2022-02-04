@@ -11,8 +11,8 @@ module.exports = {
         "plugin:@typescript-eslint/recommended",
         "prettier",
         "plugin:prettier/recommended",
-        "deprecation",
       ],
+      plugins: ["deprecation"],
       rules: {
         "max-depth": ["warn", 3],
         "max-nested-callbacks": ["warn", 3],
