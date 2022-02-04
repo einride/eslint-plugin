@@ -4,6 +4,9 @@ module.exports = {
   configs: {
     default: {
       parser: "@typescript-eslint/parser",
+      parserOptions: {
+        project: "./tsconfig.json",
+      },
       extends: [
         "plugin:jest/recommended",
         "airbnb",
