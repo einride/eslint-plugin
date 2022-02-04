@@ -7,6 +7,7 @@ module.exports = {
       parserOptions: {
         project: "./tsconfig.json",
       },
+      ignorePatterns: [".eslintrc.js"],
       extends: [
         "plugin:jest/recommended",
         "airbnb",
