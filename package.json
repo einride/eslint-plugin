@@ -22,7 +22,7 @@
     "eslint-plugin-react-hooks": "4.3.0"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "16.0.0",
+    "@commitlint/config-conventional": "16.2.1",
     "@einride/prettier-config": "1.2.0",
     "@types/node": "16.11.24",
     "commitlint": "16.1.0",
