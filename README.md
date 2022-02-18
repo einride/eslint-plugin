@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@einride/eslint-plugin.svg)](https://www.npmjs.com/package/@einride/eslint-plugin)
 [![total npm downloads](https://img.shields.io/npm/dt/@einride/eslint-plugin.svg)](https://www.npmjs.com/package/@einride/eslint-plugin)
 
-Einride's ESLint configuration as a sharable plugin.
+Einride's default ESLint config.
 
 ## Installation
 
