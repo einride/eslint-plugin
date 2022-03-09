@@ -22,6 +22,20 @@ module.exports = {
         "max-nested-callbacks": ["warn", 3],
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off",
+        // Forbid the use of extraneous packages
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            devDependencies: [
+              "**/__tests__/**", // jest pattern
+              "**/*.test.{ts,tsx}", // test file
+              "**/jest.config.js", // jest config
+              "**/.eslintrc.js", // eslint config
+              "**/setupTests.ts", // setup tests file
+              "**/vite.config.ts", // vite config
+            ],
+          },
+        ],
         "import/order": [
           "error",
           {
