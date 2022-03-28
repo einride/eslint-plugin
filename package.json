@@ -1,6 +1,6 @@
 {
   "name": "@einride/eslint-plugin",
-  "version": "4.9.0",
+  "version": "0.0.0-development",
   "description": "Einride's default ESLint config",
   "scripts": {
     "commitlint": "commitlint --from origin/main --to HEAD",
