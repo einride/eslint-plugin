@@ -9,7 +9,6 @@ module.exports = {
       },
       ignorePatterns: [".eslintrc.js"],
       extends: [
-        "plugin:jest/recommended",
         "airbnb",
         "airbnb/hooks",
         "plugin:@typescript-eslint/recommended",
@@ -27,9 +26,8 @@ module.exports = {
           "error",
           {
             devDependencies: [
-              "**/__tests__/**", // jest pattern
+              "**/__tests__/**", // test folder
               "**/*.test.{ts,tsx}", // test file
-              "**/jest.config.js", // jest config
               "**/.eslintrc.js", // eslint config
               "**/setupTests.ts", // setup tests file
               "**/vite.config.ts", // vite config
