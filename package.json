@@ -4,9 +4,9 @@
   "description": "Einride's default ESLint config",
   "scripts": {
     "commitlint": "commitlint --from origin/main --to HEAD",
-    "git-verify-nodiff": "./scripts/git-verify-nodiff.bash",
-    "prettier": "prettier --write .",
-    "review": "yarn install --frozen-lockfile && yarn commitlint && yarn prettier && yarn git-verify-nodiff"
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "review": "yarn install --frozen-lockfile && yarn commitlint && yarn format-check"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.21.0",
