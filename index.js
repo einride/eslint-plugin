@@ -69,6 +69,7 @@ module.exports = {
         "@typescript-eslint/no-unused-vars": "error",
         "import/no-unresolved": "off",
         "import/prefer-default-export": "off",
+        "import/no-default-export": "error",
         "no-use-before-define": "off",
         "no-underscore-dangle": ["error", { allow: ["__typename"] }],
         quotes: ["error", "double", { avoidEscape: true }],
