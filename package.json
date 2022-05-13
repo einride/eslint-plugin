@@ -2,6 +2,7 @@
   "name": "@einride/eslint-plugin",
   "version": "0.0.0-development",
   "description": "Einride's default ESLint config",
+  "main": "index.js",
   "scripts": {
     "commitlint": "commitlint --from origin/main --to HEAD",
     "format": "prettier --write .",
@@ -32,16 +33,15 @@
     "eslint": ">=7.28.0",
     "prettier": "^2.4.1"
   },
-  "author": "Filip Tammergård",
-  "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "files": [
     "index.js"
   ],
-  "engines": {
-    "node": "14 || 16"
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/einride/eslint-plugin.git"
   },
   "keywords": [
     "eslint",
@@ -52,14 +52,14 @@
     "einride",
     "styleguide"
   ],
+  "author": "Filip Tammergård",
   "license": "MIT",
-  "homepage": "https://github.com/einride/eslint-plugin",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/einride/eslint-plugin.git"
+  "engines": {
+    "node": "14 || 16"
   },
   "bugs": {
     "email": "open-source@einride.tech",
     "url": "https://github.com/einride/eslint-plugin/issues"
-  }
+  },
+  "homepage": "https://github.com/einride/eslint-plugin"
 }
