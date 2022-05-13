@@ -4,20 +4,17 @@
 [![npm version](https://img.shields.io/npm/v/@einride/eslint-plugin.svg)](https://www.npmjs.com/package/@einride/eslint-plugin)
 [![total npm downloads](https://img.shields.io/npm/dt/@einride/eslint-plugin.svg)](https://www.npmjs.com/package/@einride/eslint-plugin)
 
-Einride's default ESLint config.
+Einride's default ESLint config
 
 ## Installation
 
-Install this ESLint plugin together with its peer dependencies as dev
-dependencies:
+Install `@einride/eslint-plugin` as a dev dependency:
 
 ```bash
-# npm
-npm install @einride/eslint-plugin eslint prettier --save-dev
-
-# yarn
-yarn add @einride/eslint-plugin eslint prettier --dev
+yarn add @einride/eslint-plugin --dev
 ```
+
+Make sure ESLint and Prettier are also installed in your project.
 
 ## Usage
 
@@ -45,6 +42,11 @@ module.exports = {
   },
 }
 ```
+
+## Contribute
+
+See
+[Contributing Guide](https://github.com/einride/eslint-plugin/blob/main/CONTRIBUTING.md).
 
 ## License
 
