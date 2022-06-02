@@ -43,21 +43,14 @@ module.exports = {
             },
           },
         ],
-        "import/extensions": [
-          "error",
-          "never",
-          { svg: "always", json: "always", png: "always" },
-        ],
+        "import/extensions": ["error", "never", { svg: "always", json: "always", png: "always" }],
         "react/jsx-key": [
           "error",
           {
             checkFragmentShorthand: true,
           },
         ],
-        "react/jsx-filename-extension": [
-          "error",
-          { extensions: [".js", ".jsx", ".tsx"] },
-        ],
+        "react/jsx-filename-extension": ["error", { extensions: [".js", ".jsx", ".tsx"] }],
         "@typescript-eslint/explicit-function-return-type": [
           "error",
           {
