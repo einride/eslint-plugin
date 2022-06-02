@@ -20,8 +20,8 @@ Make sure ESLint and Prettier are also installed in your project.
 
 ### Enable all default rules
 
-Add `plugin:@einride/default` to the `extends` array in your ESLint
-configuration file. In `.eslintrc.js`:
+Add `plugin:@einride/default` to the `extends` array in your ESLint configuration file. In
+`.eslintrc.js`:
 
 ```js
 module.exports = {
@@ -29,8 +29,8 @@ module.exports = {
 }
 ```
 
-Note that you can omit the `/eslint-plugin` part of the package name, since it
-will be automatically assumed by ESLint.
+Note that you can omit the `/eslint-plugin` part of the package name, since it will be automatically
+assumed by ESLint.
 
 To override a rule, add it to the `rules` object:
 
@@ -45,8 +45,7 @@ module.exports = {
 
 ## Contribute
 
-See
-[Contributing Guide](https://github.com/einride/eslint-plugin/blob/main/CONTRIBUTING.md).
+See [Contributing Guide](https://github.com/einride/eslint-plugin/blob/main/CONTRIBUTING.md).
 
 ## License
 
