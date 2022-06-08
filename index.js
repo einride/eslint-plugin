@@ -21,11 +21,15 @@ module.exports = {
         "max-nested-callbacks": ["warn", 3],
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off",
+        // Make it flexible to use typescript enum
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": "error",
         // Forbid the use of extraneous packages
         "import/no-extraneous-dependencies": [
           "error",
           {
             devDependencies: [
+              "src/lib/test.ts", // test helper
               "**/__tests__/**", // test folder
               "**/*.test.{ts,tsx}", // test file
               "**/.eslintrc.js", // eslint config
