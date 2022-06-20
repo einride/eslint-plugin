@@ -29,7 +29,7 @@ module.exports = {
           "error",
           {
             devDependencies: [
-              "src/lib/test.ts", // test helper
+              "src/lib/test.{ts,tsx}", // test helper
               "**/__tests__/**", // test folder
               "**/*.test.{ts,tsx}", // test file
               "**/.eslintrc.js", // eslint config
