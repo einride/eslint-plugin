@@ -25,7 +25,7 @@
     "@commitlint/cli": "17.0.2",
     "@commitlint/config-conventional": "17.0.2",
     "@einride/prettier-config": "2.0.0",
-    "eslint": "8.17.0",
+    "eslint": "8.18.0",
     "prettier": "2.7.1",
     "semantic-release": "19.0.3"
   },
