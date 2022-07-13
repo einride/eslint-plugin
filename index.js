@@ -85,7 +85,7 @@ module.exports = {
             unnamedComponents: "arrow-function",
           },
         ],
-        "deprecation/deprecation": "error",
+        "deprecation/deprecation": "warn",
       },
       settings: {
         "import/parsers": {
