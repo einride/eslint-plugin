@@ -113,11 +113,6 @@ module.exports = {
           },
         ],
 
-        // Disabled because it's already covered by "@typescript-eslint/explicit-function-return-type"
-        // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md
-        // TODO: Remove this, since it's disabled by default?
-        "@typescript-eslint/explicit-module-boundary-types": "off",
-
         // Disallow explicit `any` types
         // https://typescript-eslint.io/rules/no-explicit-any
         "@typescript-eslint/no-explicit-any": "error",
