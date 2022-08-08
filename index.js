@@ -18,10 +18,6 @@ module.exports = {
         // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended.ts
         "plugin:@typescript-eslint/recommended",
 
-        // https://github.com/prettier/eslint-config-prettier/blob/main/index.js
-        // TODO: Remove this, since it's already configured through `plugin:prettier/recommended`?
-        "prettier",
-
         // https://github.com/prettier/eslint-plugin-prettier/blob/master/eslint-plugin-prettier.js
         "plugin:prettier/recommended",
       ],
