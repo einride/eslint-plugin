@@ -9,10 +9,20 @@ module.exports = {
       },
       ignorePatterns: [".eslintrc.js"],
       extends: [
+        // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/index.js
         "airbnb",
+
+        // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/hooks.js
         "airbnb/hooks",
+
+        // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended.ts
         "plugin:@typescript-eslint/recommended",
+
+        // https://github.com/prettier/eslint-config-prettier/blob/main/index.js
+        // TODO: Remove this, since it's already configured through `plugin:prettier/recommended`?
         "prettier",
+
+        // https://github.com/prettier/eslint-plugin-prettier/blob/master/eslint-plugin-prettier.js
         "plugin:prettier/recommended",
       ],
       plugins: ["deprecation"],
