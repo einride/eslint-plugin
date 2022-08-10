@@ -15,13 +15,20 @@ module.exports = {
         // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/hooks.js
         "airbnb/hooks",
 
+        // Turns off rules that are enabled by `eslint-config-airbnb` that are not relevant in React 18 or higher: https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
+        // https://github.com/jsx-eslint/eslint-plugin-react/blob/HEAD/index.js#L171-L185
+        "plugin:react/jsx-runtime",
+
         // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended.ts
         "plugin:@typescript-eslint/recommended",
 
         // https://github.com/prettier/eslint-plugin-prettier/blob/master/eslint-plugin-prettier.js
         "plugin:prettier/recommended",
       ],
-      plugins: ["deprecation"],
+      plugins: [
+        // https://github.com/gund/eslint-plugin-deprecation
+        "deprecation",
+      ],
       rules: {
         // Enforce explicit function return types
         // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/explicit-function-return-type.md
@@ -188,21 +195,11 @@ module.exports = {
           },
         ],
 
-        // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js#L159-L161
-        // Disabled because since React 17, importing React is not required for JSX transform: https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
-        // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
-        "react/jsx-uses-react": "off",
-
         // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js#L220-L226
         // Disabled because we're using TypeScript
         // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prop-types.md
         // TODO: Enable since it supports prop validation with TypeScript?
         "react/prop-types": "off",
-
-        // Enabled by `eslint-config-airbnb: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js#L228-L230
-        // Disabled because since React 17, React does not have to be in scope: https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
-        // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
-        "react/react-in-jsx-scope": "off",
 
         // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js#L390-L394
         // Disabled because we're using TypeScript
