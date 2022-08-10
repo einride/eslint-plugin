@@ -80,6 +80,7 @@ module.exports = {
           },
         ],
 
+        // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/imports.js#L35-L37
         // Disabled to avoid false positive reports of missing dependencies
         // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md
         // TODO: Enable?
@@ -98,6 +99,7 @@ module.exports = {
           },
         ],
 
+        // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/imports.js#L155-L157
         // Disabled becaise named imports are always preferred
         // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md
         "import/prefer-default-export": "off",
@@ -112,6 +114,7 @@ module.exports = {
         // https://eslint.org/docs/latest/rules/max-nested-callbacks
         "max-nested-callbacks": ["warn", 3],
 
+        // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/variables.js#L33-L34
         // Disabled in favor of "@typescript-eslint/no-shadow": https://typescript-eslint.io/rules/no-shadow
         // https://eslint.org/docs/latest/rules/no-shadow
         "no-shadow": "off",
@@ -126,6 +129,7 @@ module.exports = {
           },
         ],
 
+        // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/variables.js#L53-L54
         // Disabled because there is no actual problem with using something before it's defined
         // https://eslint.org/docs/latest/rules/no-use-before-define
         "no-use-before-define": "off",
@@ -184,19 +188,23 @@ module.exports = {
           },
         ],
 
+        // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js#L159-L161
         // Disabled because since React 17, importing React is not required for JSX transform: https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
         // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
         "react/jsx-uses-react": "off",
 
+        // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js#L220-L226
         // Disabled because we're using TypeScript
         // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prop-types.md
         // TODO: Enable since it supports prop validation with TypeScript?
         "react/prop-types": "off",
 
+        // Enabled by `eslint-config-airbnb: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js#L228-L230
         // Disabled because since React 17, React does not have to be in scope: https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
         // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
         "react/react-in-jsx-scope": "off",
 
+        // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js#L390-L394
         // Disabled because we're using TypeScript
         // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
         // TODO: Enable since it supports prop validation with TypeScript?
