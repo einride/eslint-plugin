@@ -208,6 +208,15 @@ module.exports = {
         // TODO: Enable since it supports prop validation with TypeScript?
         "react/require-default-props": "off",
       },
+      overrides: [
+        // Allow default exports in config files that require them
+        {
+          files: ["rollup.config.js", "vite.config.ts"],
+          rules: {
+            "import/no-default-export": "off",
+          },
+        },
+      ],
       settings: {
         "import/parsers": {
           "@typescript-eslint/parser": [".ts", ".tsx"],
