@@ -83,6 +83,7 @@ module.exports = {
               "**/.eslintrc.js", // eslint config
               "**/setupTests.ts", // setup tests file
               "**/vite.config.ts", // vite config
+              "**/rollup.config.js", // rollup config
             ],
           },
         ],
