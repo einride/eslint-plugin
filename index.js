@@ -84,6 +84,7 @@ module.exports = {
               "**/setupTests.ts", // setup tests file
               "**/vite.config.ts", // vite config
               "**/rollup.config.js", // rollup config
+              "**/*.cy.ts", // cypress test files
             ],
           },
         ],
