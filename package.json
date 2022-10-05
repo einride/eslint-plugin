@@ -55,7 +55,7 @@
   "author": "Filip Tammergård",
   "license": "MIT",
   "engines": {
-    "node": "14 || 16"
+    "node": "14 || 16 || 18"
   },
   "bugs": {
     "email": "open-source@einride.tech",
