@@ -83,7 +83,7 @@ module.exports = {
               "**/.eslintrc.js", // eslint config
               "**/setupTests.ts", // setup tests file
               "**/vite.config.ts", // vite config
-              "**/rollup.config.js", // rollup config
+              "**/rollup.config.{js,mjs}", // rollup config
               "**/*.cy.ts", // cypress test files
             ],
           },
@@ -212,7 +212,7 @@ module.exports = {
       overrides: [
         // Allow default exports in config files that require them
         {
-          files: ["rollup.config.js", "vite.config.ts"],
+          files: ["rollup.config.{js,mjs}", "vite.config.ts"],
           rules: {
             "import/no-default-export": "off",
           },
