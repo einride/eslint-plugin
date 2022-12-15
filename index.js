@@ -214,7 +214,12 @@ module.exports = {
       overrides: [
         // Allow default exports in config files that require them
         {
-          files: ["rollup.config.{js,mjs}", "vite.config.ts"],
+          files: [
+            "*.d.ts", // type declaration files might require default exports
+            "*.stories.tsx", // storybook requires exporting component story metadata as default
+            "rollup.config.{js,mjs}", // rollup requires exporting config as default
+            "vite.config.ts", // vite requires exporting config as default
+          ],
           rules: {
             "import/no-default-export": "off",
           },
