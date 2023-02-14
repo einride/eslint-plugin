@@ -83,7 +83,6 @@ module.exports = {
               "**/.eslintrc.js", // eslint config
               "**/setupTests.ts", // setup tests file
               "**/vite.config.ts", // vite config
-              "**/lostpixel.config.ts", // lost pixel config
               "**/rollup.config.{js,mjs}", // rollup config
               "**/*.stories.tsx", // storybook story files
               "**/*.cy.ts", // cypress test files
