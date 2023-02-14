@@ -87,6 +87,7 @@ module.exports = {
               "**/rollup.config.{js,mjs}", // rollup config
               "**/*.stories.tsx", // storybook story files
               "**/*.cy.ts", // cypress test files
+              "cypress.config.ts", // cypress config file
             ],
           },
         ],
