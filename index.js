@@ -7,7 +7,7 @@ module.exports = {
       parserOptions: {
         project: "./tsconfig.json",
       },
-      ignorePatterns: [".eslintrc.js"],
+      ignorePatterns: [".eslintrc.*js"],
       extends: [
         // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/index.js
         "airbnb",
