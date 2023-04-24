@@ -2,7 +2,6 @@
   "name": "@einride/eslint-plugin",
   "version": "0.0.0-development",
   "description": "Einride's default ESLint config",
-  "main": "index.js",
   "scripts": {
     "commitlint": "commitlint --from origin/main --to HEAD",
     "format": "prettier --write .",
@@ -36,30 +35,29 @@
   "files": [
     "index.js"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/einride/eslint-plugin.git"
-  },
+  "main": "index.js",
   "keywords": [
     "eslint",
     "plugin",
     "eslint-plugin",
     "react",
-    "typescript",
-    "einride",
-    "styleguide"
+    "typescript"
   ],
-  "author": "Filip Tammergård",
-  "license": "MIT",
-  "engines": {
-    "node": "14 || 16 || 18"
-  },
+  "homepage": "https://github.com/einride/eslint-plugin",
   "bugs": {
     "email": "open-source@einride.tech",
     "url": "https://github.com/einride/eslint-plugin/issues"
   },
-  "homepage": "https://github.com/einride/eslint-plugin"
+  "license": "MIT",
+  "author": {
+    "name": "Filip Tammergård",
+    "email": "filip.tammergard@einride.tech"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/einride/eslint-plugin.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
