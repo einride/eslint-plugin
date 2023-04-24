@@ -58,6 +58,7 @@
     "url": "https://github.com/einride/eslint-plugin.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   }
 }
