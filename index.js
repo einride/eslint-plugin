@@ -92,9 +92,8 @@ module.exports = {
         ],
 
         // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/imports.js#L35-L37
-        // Disabled to avoid false positive reports of missing dependencies
+        // Disabled since we're not using Node or Webpack as module bundler
         // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md
-        // TODO: Enable?
         "import/no-unresolved": "off",
 
         // Enforce consistent ordering of imports. Used in conjunction with `sort-imports`.
@@ -199,9 +198,8 @@ module.exports = {
         ],
 
         // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js#L390-L394
-        // Disabled because we're using TypeScript
+        // Disabled because we're using TypeScript and don't want to enforce default props
         // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
-        // TODO: Enable since it supports prop validation with TypeScript?
         "react/require-default-props": "off",
 
         // Enforce consistent ordering of import members. Used in conjunction with `import/order`.
