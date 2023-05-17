@@ -174,8 +174,7 @@ module.exports = {
           "error",
           {
             // Allow JSX in these file types
-            // TODO: Remove .js (and .jsx)?
-            extensions: [".js", ".jsx", ".tsx"],
+            extensions: [".tsx"],
           },
         ],
 
