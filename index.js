@@ -97,7 +97,7 @@ module.exports = {
         // TODO: Enable?
         "import/no-unresolved": "off",
 
-        // Enforce consistent ordering of imports
+        // Enforce consistent ordering of imports. Used in conjunction with `sort-imports`.
         // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md
         "import/order": [
           "error",
@@ -210,6 +210,16 @@ module.exports = {
         // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
         // TODO: Enable since it supports prop validation with TypeScript?
         "react/require-default-props": "off",
+
+        // Enforce consistent ordering of import members. Used in conjunction with `import/order`.
+        // https://eslint.org/docs/latest/rules/sort-imports
+        "sort-imports": [
+          "error",
+          {
+            // Ignore sorting of import declarations that are already handled by `import/order`: https://eslint.org/docs/latest/rules/sort-imports#ignoredeclarationsort
+            ignoreDeclarationSort: true,
+          },
+        ],
       },
       overrides: [
         // Allow default exports in config files that require them
