@@ -199,12 +199,6 @@ module.exports = {
           },
         ],
 
-        // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js#L220-L226
-        // Disabled because we're using TypeScript
-        // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prop-types.md
-        // TODO: Enable since it supports prop validation with TypeScript?
-        "react/prop-types": "off",
-
         // Enabled by `eslint-config-airbnb`: https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js#L390-L394
         // Disabled because we're using TypeScript
         // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
