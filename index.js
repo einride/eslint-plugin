@@ -40,10 +40,6 @@ module.exports = {
           },
         ],
 
-        // Disallow explicit `any` types
-        // https://typescript-eslint.io/rules/no-explicit-any
-        "@typescript-eslint/no-explicit-any": "error",
-
         // Disallow empty functions
         // https://typescript-eslint.io/rules/no-empty-function
         "no-empty-function": "off",
@@ -60,10 +56,6 @@ module.exports = {
         // Disallow variable declarations from shadowing variables declared in the outer scope, with support for TypeScript features
         // https://typescript-eslint.io/rules/no-shadow
         "@typescript-eslint/no-shadow": "error",
-
-        // Disallow unused variables
-        // https://typescript-eslint.io/rules/no-unused-vars
-        "@typescript-eslint/no-unused-vars": "error",
 
         // Warn against using deprecated code
         // Not disallowed because code can be deprecated at any moment and it should not break CI
