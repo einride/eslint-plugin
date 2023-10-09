@@ -44,6 +44,19 @@ module.exports = {
         // https://typescript-eslint.io/rules/no-explicit-any
         "@typescript-eslint/no-explicit-any": "error",
 
+        // Disallow empty functions
+        // https://typescript-eslint.io/rules/no-empty-function
+        "no-empty-function": "off",
+        "@typescript-eslint/no-empty-function": "error",
+
+        // Disallow empty interfaces
+        // https://typescript-eslint.io/rules/no-empty-interface
+        "@typescript-eslint/no-empty-interface": "error",
+
+        // Disallow inferrable types
+        // https://typescript-eslint.io/rules/no-inferrable-types
+        "@typescript-eslint/no-inferrable-types": "error",
+
         // Disallow variable declarations from shadowing variables declared in the outer scope, with support for TypeScript features
         // https://typescript-eslint.io/rules/no-shadow
         "@typescript-eslint/no-shadow": "error",
