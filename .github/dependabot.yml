@@ -7,6 +7,10 @@ updates:
       interval: daily
     allow:
       - dependency-type: development
+    groups:
+      commitlint:
+        patterns:
+          - "@commitlint/*"
 
   - package-ecosystem: github-actions
     directory: /
