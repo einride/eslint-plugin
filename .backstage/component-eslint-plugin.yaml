@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: eslint-plugin
+  title: ESLint plugin
   description: Einride's default ESLint config.
   annotations:
     backstage.io/source-location: url:https://github.com/einride/eslint-plugin/tree/main
@@ -9,5 +10,5 @@ metadata:
     github.com/team-slug: einride/team-divops
 spec:
   type: library
-  lifecycle: production
   owner: team-divops
+  lifecycle: production
