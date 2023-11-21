@@ -229,7 +229,7 @@ module.exports = {
             "*.d.ts", // type declaration files might require default exports
             "*.stories.tsx", // storybook requires exporting component story metadata as default
             "rollup.config.{js,mjs}", // rollup requires exporting config as default
-            "vite.config.ts", // vite requires exporting config as default
+            "vite.config.{ts,mts}", // vite requires exporting config as default
             "cypress.config.ts", // vite requires exporting config as default
           ],
           rules: {
