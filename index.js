@@ -87,7 +87,7 @@ module.exports = {
               "**/*.test.{ts,tsx}", // test file
               "**/.eslintrc.js", // eslint config
               "**/setupTests.ts", // setup tests file
-              "**/vite.config.ts", // vite config
+              "**/vite.config.{ts,mts}", // vite config
               "**/rollup.config.{js,mjs}", // rollup config
               "**/*.stories.tsx", // storybook story files
               "**/*.cy.ts", // cypress test files
