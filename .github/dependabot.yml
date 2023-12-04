@@ -8,9 +8,12 @@ updates:
     allow:
       - dependency-type: development
     groups:
-      commitlint:
-        patterns:
-          - "@commitlint/*"
+      # group non-major dev dependencies
+      dev-dependencies:
+        dependency-type: development
+        update-types:
+          - patch
+          - minor
 
   - package-ecosystem: github-actions
     directory: /
