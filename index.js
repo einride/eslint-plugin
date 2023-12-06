@@ -88,6 +88,7 @@ module.exports = {
               "**/.eslintrc.js", // eslint config
               "**/setupTests.ts", // setup tests file
               "**/vite.config.{ts,mts}", // vite config
+              "**/vitest.config.{ts,mts}", // vitest config
               "**/rollup.config.{js,mjs}", // rollup config
               "**/*.stories.tsx", // storybook story files
               "**/*.cy.ts", // cypress test files
@@ -230,7 +231,8 @@ module.exports = {
             "*.stories.tsx", // storybook requires exporting component story metadata as default
             "rollup.config.{js,mjs}", // rollup requires exporting config as default
             "vite.config.{ts,mts}", // vite requires exporting config as default
-            "cypress.config.ts", // vite requires exporting config as default
+            "vitest.config.{ts,mts}", // vite requires exporting config as default
+            "cypress.config.ts", // cypress requires exporting config as default
           ],
           rules: {
             "import/no-default-export": "off",
