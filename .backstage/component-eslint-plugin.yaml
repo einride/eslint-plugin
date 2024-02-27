@@ -6,8 +6,8 @@ metadata:
   description: Einride's default ESLint config.
   annotations:
     backstage.io/source-location: url:https://github.com/einride/eslint-plugin/tree/main
-    github.com/project-slug: einride/platform-engineering
-    github.com/team-slug: einride/team-divops
+    github.com/project-slug: einride/eslint-plugin
+    github.com/team-slug: einride/platform-engineering
 spec:
   type: library
   owner: platform-engineering
