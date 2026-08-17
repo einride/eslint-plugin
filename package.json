@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "19.6.0",
-    "@commitlint/config-conventional": "19.6.0",
+    "@commitlint/config-conventional": "21.2.0",
     "@einride/prettier-config": "2.1.0",
     "eslint": "8.57.1",
     "prettier": "3.8.3",
