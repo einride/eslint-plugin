@@ -28,7 +28,7 @@ jobs:
           node-version: 22
 
       - name: Review
-        run: yarn review
+        run: yarn install --frozen-lockfile && yarn format-check
 
       - name: Release
         run: yarn semantic-release
