@@ -21,11 +21,11 @@
     "eslint-plugin-react-hooks": "4.6.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "21.2.3",
-    "@commitlint/config-conventional": "21.2.3",
+    "@commitlint/cli": "21.2.4",
+    "@commitlint/config-conventional": "21.2.4",
     "@einride/prettier-config": "2.1.0",
     "eslint": "8.57.1",
-    "prettier": "3.9.8",
+    "prettier": "3.9.10",
     "semantic-release": "25.0.9"
   },
   "peerDependencies": {
